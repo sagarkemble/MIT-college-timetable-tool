@@ -5,7 +5,7 @@ export type Weekday =
 
 export type SlotNumber = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11
 
-export type SessionType = "lecture" | "lab" | "other"
+export type SessionType = "lecture" | "lab" | "other" | "break" | "lunch-break"
 
 export type Allocation = {
   batch: Batch
@@ -20,7 +20,7 @@ export type Slot = {
   slotNumber: SlotNumber
   startTime: string
   endTime: string
-  type: "class"
+  type: "class" | "break" | "lunch-break"
   allocations: Allocation[]
 }
 
