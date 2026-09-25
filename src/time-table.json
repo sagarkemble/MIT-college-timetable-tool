@@ -1,0 +1,926 @@
+[
+  {
+    "day": "Monday",
+    "slots": [
+      {
+        "slotNumber": 1,
+        "startTime": "08:30",
+        "endTime": "09:25",
+        "type": "class",
+        "allocations": [
+          {
+            "batch": "F1",
+            "subject": "Computer Organization and Architecture",
+            "subjectCode": "COA",
+            "sessionType": "lab",
+            "faculty": ["Krunal B. Pawar"],
+            "room": "H204A"
+          },
+          {
+            "batch": "F2",
+            "subject": "Programming Lab",
+            "sessionType": "lab",
+            "faculty": ["Vinodini U. Gupta"],
+            "room": "H205"
+          },
+          {
+            "batch": "F3",
+            "subject": "Programming Lab",
+            "sessionType": "lab",
+            "faculty": ["Chetana H. Nande"],
+            "room": "H207A"
+          }
+        ]
+      },
+      {
+        "slotNumber": 2,
+        "startTime": "09:25",
+        "endTime": "10:20",
+        "type": "class",
+        "allocations": [
+          {
+            "batch": "F1",
+            "subject": "Computer Organization and Architecture",
+            "subjectCode": "COA",
+            "sessionType": "lab",
+            "faculty": ["Krunal B. Pawar"],
+            "room": "H204A"
+          },
+          {
+            "batch": "F2",
+            "subject": "Programming Lab",
+            "sessionType": "lab",
+            "faculty": ["Vinodini U. Gupta"],
+            "room": "H205"
+          },
+          {
+            "batch": "F3",
+            "subject": "Programming Lab",
+            "sessionType": "lab",
+            "faculty": ["Chetana H. Nande"],
+            "room": "H207A"
+          }
+        ]
+      },
+      {
+        "slotNumber": 4,
+        "startTime": "10:30",
+        "endTime": "11:25",
+        "type": "class",
+        "allocations": []
+      },
+      {
+        "slotNumber": 5,
+        "startTime": "11:25",
+        "endTime": "12:20",
+        "type": "class",
+        "allocations": [
+          {
+            "batch": "F1",
+            "subject": "Computer Graphics",
+            "subjectCode": "CG",
+            "sessionType": "lecture",
+            "faculty": ["Rohini A. Bain"],
+            "room": "H202"
+          },
+          {
+            "batch": "F2",
+            "subject": "Computer Graphics",
+            "subjectCode": "CG",
+            "sessionType": "lecture",
+            "faculty": ["Rohini A. Bain"],
+            "room": "H202"
+          },
+          {
+            "batch": "F3",
+            "subject": "Computer Graphics",
+            "subjectCode": "CG",
+            "sessionType": "lecture",
+            "faculty": ["Rohini A. Bain"],
+            "room": "H202"
+          }
+        ]
+      },
+      {
+        "slotNumber": 7,
+        "startTime": "13:15",
+        "endTime": "14:10",
+        "type": "class",
+        "allocations": [
+          {
+            "batch": "F1",
+            "subject": "Applied Mathematics",
+            "subjectCode": "AM",
+            "sessionType": "lecture",
+            "faculty": ["Amitkumar A. Shinde"],
+            "room": "H202"
+          },
+          {
+            "batch": "F2",
+            "subject": "Applied Mathematics",
+            "subjectCode": "AM",
+            "sessionType": "lecture",
+            "faculty": ["Amitkumar A. Shinde"],
+            "room": "H202"
+          },
+          {
+            "batch": "F3",
+            "subject": "Applied Mathematics",
+            "subjectCode": "AM",
+            "sessionType": "lecture",
+            "faculty": ["Amitkumar A. Shinde"],
+            "room": "H202"
+          }
+        ]
+      },
+      {
+        "slotNumber": 8,
+        "startTime": "14:10",
+        "endTime": "15:05",
+        "type": "class",
+        "allocations": [
+          {
+            "batch": "F1",
+            "subject": "Programming Lab",
+            "sessionType": "lab",
+            "faculty": ["Vinodini U. Gupta"],
+            "room": "H204A"
+          },
+          {
+            "batch": "F3",
+            "subject": "Problem Solving Using Object-Oriented Programming (Java)",
+            "subjectCode": "P-SOOP (Java)",
+            "sessionType": "lab",
+            "faculty": ["Priyanka G. Mane"],
+            "room": "E421"
+          }
+        ]
+      },
+      {
+        "slotNumber": 10,
+        "startTime": "15:10",
+        "endTime": "16:00",
+        "type": "class",
+        "allocations": []
+      },
+      {
+        "slotNumber": 11,
+        "startTime": "16:00",
+        "endTime": "16:50",
+        "type": "class",
+        "allocations": []
+      }
+    ]
+  },
+  {
+    "day": "Tuesday",
+    "slots": [
+      {
+        "slotNumber": 1,
+        "startTime": "08:30",
+        "endTime": "09:25",
+        "type": "class",
+        "allocations": [
+          {
+            "batch": "F1",
+            "subject": "Programming Lab",
+            "sessionType": "lab",
+            "faculty": ["Vinodini U. Gupta"],
+            "room": "H305"
+          },
+          {
+            "batch": "F3",
+            "subject": "Problem Solving Using Object-Oriented Programming (Java)",
+            "subjectCode": "P-SOOP (Java)",
+            "sessionType": "lab",
+            "faculty": ["Priyanka G. Mane"],
+            "room": "E421"
+          }
+        ]
+      },
+      {
+        "slotNumber": 2,
+        "startTime": "09:25",
+        "endTime": "10:20",
+        "type": "class",
+        "allocations": [
+          {
+            "batch": "F1",
+            "subject": "Programming Lab",
+            "sessionType": "lab",
+            "faculty": ["Vinodini U. Gupta"],
+            "room": "H305"
+          },
+          {
+            "batch": "F3",
+            "subject": "Problem Solving Using Object-Oriented Programming (Java)",
+            "subjectCode": "P-SOOP (Java)",
+            "sessionType": "lab",
+            "faculty": ["Priyanka G. Mane"],
+            "room": "E421"
+          }
+        ]
+      },
+      {
+        "slotNumber": 4,
+        "startTime": "10:30",
+        "endTime": "11:25",
+        "type": "class",
+        "allocations": [
+          {
+            "batch": "F1",
+            "subject": "Programming Lab",
+            "sessionType": "lab",
+            "faculty": ["Priyanka G. Mane"],
+            "room": "H207B"
+          },
+          {
+            "batch": "F2",
+            "subject": "Computer Graphics Lab",
+            "subjectCode": "CG",
+            "sessionType": "lab",
+            "faculty": ["Rohini A. Bain"],
+            "room": "H207B"
+          },
+          {
+            "batch": "F3",
+            "subject": "Applied Mathematics Lab",
+            "subjectCode": "AM",
+            "sessionType": "lab",
+            "faculty": ["Amitkumar A. Shinde"],
+            "room": "E423"
+          }
+        ]
+      },
+      {
+        "slotNumber": 5,
+        "startTime": "11:25",
+        "endTime": "12:20",
+        "type": "class",
+        "allocations": [
+          {
+            "batch": "F1",
+            "subject": "Programming Lab",
+            "sessionType": "lab",
+            "faculty": ["Priyanka G. Mane"],
+            "room": "H207B"
+          },
+          {
+            "batch": "F2",
+            "subject": "Computer Graphics Lab",
+            "subjectCode": "CG",
+            "sessionType": "lab",
+            "faculty": ["Rohini A. Bain"],
+            "room": "H207B"
+          },
+          {
+            "batch": "F3",
+            "subject": "Applied Mathematics Lab",
+            "subjectCode": "AM",
+            "sessionType": "lab",
+            "faculty": ["Amitkumar A. Shinde"],
+            "room": "E423"
+          }
+        ]
+      },
+      {
+        "slotNumber": 7,
+        "startTime": "13:15",
+        "endTime": "14:10",
+        "type": "class",
+        "allocations": [
+          {
+            "batch": "F1",
+            "subject": "Applied Mathematics",
+            "subjectCode": "AM",
+            "sessionType": "lecture",
+            "faculty": ["Amitkumar A. Shinde"],
+            "room": "H202"
+          },
+          {
+            "batch": "F2",
+            "subject": "Applied Mathematics",
+            "subjectCode": "AM",
+            "sessionType": "lecture",
+            "faculty": ["Amitkumar A. Shinde"],
+            "room": "H202"
+          },
+          {
+            "batch": "F3",
+            "subject": "Applied Mathematics",
+            "subjectCode": "AM",
+            "sessionType": "lecture",
+            "faculty": ["Amitkumar A. Shinde"],
+            "room": "H202"
+          }
+        ]
+      },
+      {
+        "slotNumber": 8,
+        "startTime": "14:10",
+        "endTime": "15:05",
+        "type": "class",
+        "allocations": [
+          {
+            "batch": "F1",
+            "subject": "Universal Human Values-II",
+            "subjectCode": "UHV-II",
+            "sessionType": "lecture",
+            "faculty": ["Suvidha P. Shahu"],
+            "room": "H202"
+          },
+          {
+            "batch": "F2",
+            "subject": "Universal Human Values-II",
+            "subjectCode": "UHV-II",
+            "sessionType": "lecture",
+            "faculty": ["Suvidha P. Shahu"],
+            "room": "H202"
+          },
+          {
+            "batch": "F3",
+            "subject": "Universal Human Values-II",
+            "subjectCode": "UHV-II",
+            "sessionType": "lecture",
+            "faculty": ["Suvidha P. Shahu"],
+            "room": "H202"
+          }
+        ]
+      },
+      {
+        "slotNumber": 10,
+        "startTime": "15:10",
+        "endTime": "16:00",
+        "type": "class",
+        "allocations": [
+          {
+            "batch": "F1",
+            "subject": "Problem Solving Using Object-Oriented Programming (Java)",
+            "subjectCode": "P-SOOP (Java)",
+            "sessionType": "lab",
+            "faculty": ["Priyanka G. Mane"],
+            "room": "H204B"
+          },
+          {
+            "batch": "F3",
+            "subject": "Programming Lab",
+            "sessionType": "lab",
+            "faculty": ["Vinodini U. Gupta"],
+            "room": "H207B"
+          }
+        ]
+      },
+      {
+        "slotNumber": 11,
+        "startTime": "16:00",
+        "endTime": "16:50",
+        "type": "class",
+        "allocations": []
+      }
+    ]
+  },
+  {
+    "day": "Wednesday",
+    "slots": [
+      {
+        "slotNumber": 1,
+        "startTime": "08:30",
+        "endTime": "09:25",
+        "type": "class",
+        "allocations": [
+          {
+            "batch": "F1",
+            "subject": "Entrepreneurship Skills Lab",
+            "subjectCode": "ES",
+            "sessionType": "lab",
+            "faculty": ["Yogesh B. Pawar"],
+            "room": "E424"
+          },
+          {
+            "batch": "F2",
+            "subject": "Applied Mathematics Lab",
+            "subjectCode": "AM",
+            "sessionType": "lab",
+            "faculty": ["Amitkumar A. Shinde"],
+            "room": "H205"
+          },
+          {
+            "batch": "F3",
+            "subject": "Computer Graphics Lab",
+            "subjectCode": "CG",
+            "sessionType": "lab",
+            "faculty": ["SL"],
+            "room": "H207B"
+          }
+        ]
+      },
+      {
+        "slotNumber": 2,
+        "startTime": "09:25",
+        "endTime": "10:20",
+        "type": "class",
+        "allocations": [
+          {
+            "batch": "F1",
+            "subject": "Entrepreneurship Skills Lab",
+            "subjectCode": "ES",
+            "sessionType": "lab",
+            "faculty": ["Yogesh B. Pawar"],
+            "room": "E424"
+          },
+          {
+            "batch": "F2",
+            "subject": "Applied Mathematics Lab",
+            "subjectCode": "AM",
+            "sessionType": "lab",
+            "faculty": ["Amitkumar A. Shinde"],
+            "room": "H205"
+          },
+          {
+            "batch": "F3",
+            "subject": "Computer Graphics Lab",
+            "subjectCode": "CG",
+            "sessionType": "lab",
+            "faculty": ["SL"],
+            "room": "H207B"
+          }
+        ]
+      },
+      {
+        "slotNumber": 4,
+        "startTime": "10:30",
+        "endTime": "11:25",
+        "type": "class",
+        "allocations": [
+          {
+            "batch": "F1",
+            "subject": "Applied Mathematics Lab",
+            "subjectCode": "AM",
+            "sessionType": "lab",
+            "faculty": ["SRS"],
+            "room": "H205"
+          },
+          {
+            "batch": "F2",
+            "subject": "Programming Lab",
+            "sessionType": "lab",
+            "faculty": ["Vinodini U. Gupta"],
+            "room": "H207A"
+          }
+        ]
+      },
+      {
+        "slotNumber": 5,
+        "startTime": "11:25",
+        "endTime": "12:20",
+        "type": "class",
+        "allocations": [
+          {
+            "batch": "F1",
+            "subject": "Applied Mathematics Lab",
+            "subjectCode": "AM",
+            "sessionType": "lab",
+            "faculty": ["SRS"],
+            "room": "H205"
+          },
+          {
+            "batch": "F2",
+            "subject": "Programming Lab",
+            "sessionType": "lab",
+            "faculty": ["Vinodini U. Gupta"],
+            "room": "H207A"
+          }
+        ]
+      },
+      {
+        "slotNumber": 7,
+        "startTime": "13:15",
+        "endTime": "14:10",
+        "type": "class",
+        "allocations": [
+          {
+            "batch": "F1",
+            "subject": "Applied Mathematics",
+            "subjectCode": "AM",
+            "sessionType": "lecture",
+            "faculty": ["Amitkumar A. Shinde"],
+            "room": "H202"
+          },
+          {
+            "batch": "F2",
+            "subject": "Applied Mathematics",
+            "subjectCode": "AM",
+            "sessionType": "lecture",
+            "faculty": ["Amitkumar A. Shinde"],
+            "room": "H202"
+          },
+          {
+            "batch": "F3",
+            "subject": "Applied Mathematics",
+            "subjectCode": "AM",
+            "sessionType": "lecture",
+            "faculty": ["Amitkumar A. Shinde"],
+            "room": "H202"
+          }
+        ]
+      },
+      {
+        "slotNumber": 8,
+        "startTime": "14:10",
+        "endTime": "15:05",
+        "type": "class",
+        "allocations": [
+          {
+            "batch": "F1",
+            "subject": "Universal Human Values-II",
+            "subjectCode": "UHV-II",
+            "sessionType": "lecture",
+            "faculty": ["Suvidha P. Shahu"],
+            "room": "H202"
+          },
+          {
+            "batch": "F2",
+            "subject": "Universal Human Values-II",
+            "subjectCode": "UHV-II",
+            "sessionType": "lecture",
+            "faculty": ["Suvidha P. Shahu"],
+            "room": "H202"
+          },
+          {
+            "batch": "F3",
+            "subject": "Universal Human Values-II",
+            "subjectCode": "UHV-II",
+            "sessionType": "lecture",
+            "faculty": ["Suvidha P. Shahu"],
+            "room": "H202"
+          }
+        ]
+      },
+      {
+        "slotNumber": 10,
+        "startTime": "15:10",
+        "endTime": "16:00",
+        "type": "class",
+        "allocations": [
+          {
+            "batch": "F2",
+            "subject": "Problem Solving Using Object-Oriented Programming (Java)",
+            "subjectCode": "P-SOOP (Java)",
+            "sessionType": "lab",
+            "faculty": ["Yogesh B. Pawar"],
+            "room": "E421"
+          }
+        ]
+      },
+      {
+        "slotNumber": 11,
+        "startTime": "16:00",
+        "endTime": "16:50",
+        "type": "class",
+        "allocations": []
+      }
+    ]
+  },
+  {
+    "day": "Thursday",
+    "slots": [
+      {
+        "slotNumber": 1,
+        "startTime": "08:30",
+        "endTime": "09:25",
+        "type": "class",
+        "allocations": [
+          {
+            "batch": "F1",
+            "subject": "Data Structures",
+            "subjectCode": "DS",
+            "sessionType": "lecture",
+            "faculty": ["Vinodini U. Gupta"],
+            "room": "H202"
+          },
+          {
+            "batch": "F2",
+            "subject": "Data Structures",
+            "subjectCode": "DS",
+            "sessionType": "lecture",
+            "faculty": ["Vinodini U. Gupta"],
+            "room": "H202"
+          },
+          {
+            "batch": "F3",
+            "subject": "Data Structures",
+            "subjectCode": "DS",
+            "sessionType": "lecture",
+            "faculty": ["Vinodini U. Gupta"],
+            "room": "H202"
+          }
+        ]
+      },
+      {
+        "slotNumber": 2,
+        "startTime": "09:25",
+        "endTime": "10:20",
+        "type": "class",
+        "allocations": [
+          {
+            "batch": "F1",
+            "subject": "Entrepreneurship Skills",
+            "subjectCode": "ES",
+            "sessionType": "lecture",
+            "faculty": ["Yogesh B. Pawar"],
+            "room": "H202"
+          },
+          {
+            "batch": "F2",
+            "subject": "Entrepreneurship Skills",
+            "subjectCode": "ES",
+            "sessionType": "lecture",
+            "faculty": ["Yogesh B. Pawar"],
+            "room": "H202"
+          },
+          {
+            "batch": "F3",
+            "subject": "Entrepreneurship Skills",
+            "subjectCode": "ES",
+            "sessionType": "lecture",
+            "faculty": ["Yogesh B. Pawar"],
+            "room": "H202"
+          }
+        ]
+      },
+      {
+        "slotNumber": 4,
+        "startTime": "10:30",
+        "endTime": "11:25",
+        "type": "class",
+        "allocations": [
+          {
+            "batch": "F2",
+            "subject": "Computer Graphics Lab",
+            "subjectCode": "CG",
+            "sessionType": "lab",
+            "faculty": ["CSB"],
+            "room": "E422"
+          },
+          {
+            "batch": "F3",
+            "subject": "Computer Organization and Architecture Lab",
+            "subjectCode": "COA",
+            "sessionType": "lab",
+            "faculty": ["SS"],
+            "room": "H204A"
+          }
+        ]
+      },
+      {
+        "slotNumber": 5,
+        "startTime": "11:25",
+        "endTime": "12:20",
+        "type": "class",
+        "allocations": [
+          {
+            "batch": "F2",
+            "subject": "Computer Graphics Lab",
+            "subjectCode": "CG",
+            "sessionType": "lab",
+            "faculty": ["CSB"],
+            "room": "E422"
+          },
+          {
+            "batch": "F3",
+            "subject": "Computer Organization and Architecture Lab",
+            "subjectCode": "COA",
+            "sessionType": "lab",
+            "faculty": ["SS"],
+            "room": "H204A"
+          }
+        ]
+      },
+      {
+        "slotNumber": 7,
+        "startTime": "13:15",
+        "endTime": "14:10",
+        "type": "class",
+        "allocations": [
+          {
+            "batch": "F1",
+            "subject": "Computer Graphics",
+            "subjectCode": "CG",
+            "sessionType": "lecture",
+            "faculty": ["Rohini A. Bain"],
+            "room": "H203"
+          },
+          {
+            "batch": "F2",
+            "subject": "Computer Graphics",
+            "subjectCode": "CG",
+            "sessionType": "lecture",
+            "faculty": ["Rohini A. Bain"],
+            "room": "H203"
+          },
+          {
+            "batch": "F3",
+            "subject": "Computer Graphics",
+            "subjectCode": "CG",
+            "sessionType": "lecture",
+            "faculty": ["Rohini A. Bain"],
+            "room": "H203"
+          }
+        ]
+      },
+      {
+        "slotNumber": 8,
+        "startTime": "14:10",
+        "endTime": "15:05",
+        "type": "class",
+        "allocations": [
+          {
+            "batch": "F1",
+            "subject": "Applied Mathematics",
+            "subjectCode": "AM",
+            "sessionType": "lecture",
+            "faculty": ["Amitkumar A. Shinde"],
+            "room": "H203"
+          },
+          {
+            "batch": "F2",
+            "subject": "Applied Mathematics",
+            "subjectCode": "AM",
+            "sessionType": "lecture",
+            "faculty": ["Amitkumar A. Shinde"],
+            "room": "H203"
+          },
+          {
+            "batch": "F3",
+            "subject": "Applied Mathematics",
+            "subjectCode": "AM",
+            "sessionType": "lecture",
+            "faculty": ["Amitkumar A. Shinde"],
+            "room": "H203"
+          }
+        ]
+      },
+      {
+        "slotNumber": 10,
+        "startTime": "15:10",
+        "endTime": "16:00",
+        "type": "class",
+        "allocations": []
+      },
+      {
+        "slotNumber": 11,
+        "startTime": "16:00",
+        "endTime": "16:50",
+        "type": "class",
+        "allocations": []
+      }
+    ]
+  },
+  {
+    "day": "Friday",
+    "slots": [
+      {
+        "slotNumber": 1,
+        "startTime": "08:30",
+        "endTime": "09:25",
+        "type": "class",
+        "allocations": []
+      },
+      {
+        "slotNumber": 2,
+        "startTime": "09:25",
+        "endTime": "10:20",
+        "type": "class",
+        "allocations": []
+      },
+      {
+        "slotNumber": 4,
+        "startTime": "10:30",
+        "endTime": "11:25",
+        "type": "class",
+        "allocations": []
+      },
+      {
+        "slotNumber": 5,
+        "startTime": "11:25",
+        "endTime": "12:20",
+        "type": "class",
+        "allocations": []
+      },
+      {
+        "slotNumber": 7,
+        "startTime": "13:15",
+        "endTime": "14:10",
+        "type": "class",
+        "allocations": [
+          {
+            "batch": "F1",
+            "subject": "Data Structures",
+            "subjectCode": "DS",
+            "sessionType": "lecture",
+            "faculty": ["Vinodini U. Gupta"],
+            "room": "H105"
+          },
+          {
+            "batch": "F2",
+            "subject": "Data Structures",
+            "subjectCode": "DS",
+            "sessionType": "lecture",
+            "faculty": ["Vinodini U. Gupta"],
+            "room": "H105"
+          },
+          {
+            "batch": "F3",
+            "subject": "Data Structures",
+            "subjectCode": "DS",
+            "sessionType": "lecture",
+            "faculty": ["Vinodini U. Gupta"],
+            "room": "H105"
+          }
+        ]
+      },
+      {
+        "slotNumber": 8,
+        "startTime": "14:10",
+        "endTime": "15:05",
+        "type": "class",
+        "allocations": []
+      },
+      {
+        "slotNumber": 10,
+        "startTime": "15:10",
+        "endTime": "16:00",
+        "type": "class",
+        "allocations": []
+      },
+      {
+        "slotNumber": 11,
+        "startTime": "16:00",
+        "endTime": "16:50",
+        "type": "class",
+        "allocations": []
+      }
+    ]
+  },
+  {
+    "day": "Saturday",
+    "slots": [
+      {
+        "slotNumber": 1,
+        "startTime": "08:30",
+        "endTime": "09:25",
+        "type": "class",
+        "allocations": []
+      },
+      {
+        "slotNumber": 2,
+        "startTime": "09:25",
+        "endTime": "10:20",
+        "type": "class",
+        "allocations": []
+      },
+      {
+        "slotNumber": 4,
+        "startTime": "10:30",
+        "endTime": "11:25",
+        "type": "class",
+        "allocations": []
+      },
+      {
+        "slotNumber": 5,
+        "startTime": "11:25",
+        "endTime": "12:20",
+        "type": "class",
+        "allocations": []
+      },
+      {
+        "slotNumber": 7,
+        "startTime": "13:15",
+        "endTime": "14:10",
+        "type": "class",
+        "allocations": []
+      },
+      {
+        "slotNumber": 8,
+        "startTime": "14:10",
+        "endTime": "15:05",
+        "type": "class",
+        "allocations": []
+      },
+      {
+        "slotNumber": 10,
+        "startTime": "15:10",
+        "endTime": "16:00",
+        "type": "class",
+        "allocations": []
+      },
+      {
+        "slotNumber": 11,
+        "startTime": "16:00",
+        "endTime": "16:50",
+        "type": "class",
+        "allocations": []
+      }
+    ]
+  }
+]
