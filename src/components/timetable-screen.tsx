@@ -97,6 +97,10 @@ export function TimetableScreen() {
   }
 
   function goToday() {
+    if (!batch) {
+      return
+    }
+
     const today = startOfDay(new Date())
     const clock = new Date()
     if (isSameDay(selected, today)) {
