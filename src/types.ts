@@ -20,7 +20,7 @@ export type Slot = {
   slotNumber: SlotNumber
   startTime: string
   endTime: string
-  type: "class" | "break" | "lunch-break"
+  type: "class" | "break" | "lunch-break" | "other"
   allocations: Allocation[]
 }
 
