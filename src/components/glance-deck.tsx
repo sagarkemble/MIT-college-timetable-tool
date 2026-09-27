@@ -3,16 +3,11 @@ import { useRef, useState, type PointerEvent } from "react"
 import { GlanceCardView } from "@/components/glance-card"
 import type { GlanceCard } from "@/lib/schedule"
 
-const SWIPE_THRESHOLD = 72
-const PROMOTE_DISTANCE = 150
-const MOVE_MS = 320
+const SWIPE_THRESHOLD = 64
+const MOVE_MS = 280
 const MOVE_EASE = "cubic-bezier(0.22, 1, 0.36, 1)"
 
 type DragAxis = "x" | "y"
-
-function promoteAmount(x: number, y: number) {
-  return Math.min(1, Math.hypot(x, y) / PROMOTE_DISTANCE)
-}
 
 export function GlanceDeck({
   card,
@@ -49,6 +44,14 @@ export function GlanceDeck({
     setOffset({ x, y })
   }
 
+  function deckSize() {
+    const deck = deckRef.current
+    return {
+      width: deck?.clientWidth ?? 390,
+      height: deck?.clientHeight ?? 640,
+    }
+  }
+
   function settle() {
     const action = pending.current
     if (!action) {
@@ -75,14 +78,6 @@ export function GlanceDeck({
       setDrag(x, y)
       window.setTimeout(settle, MOVE_MS + 40)
     })
-  }
-
-  function exitBy(axis: DragAxis) {
-    const deck = deckRef.current
-    if (!deck) {
-      return 420
-    }
-    return axis === "x" ? deck.clientWidth + 36 : deck.clientHeight + 36
   }
 
   function pointerDown(event: PointerEvent<HTMLDivElement>) {
@@ -121,7 +116,7 @@ export function GlanceDeck({
 
     if (origin.current.axis === "x") {
       y = 0
-      const blocked = (x > 0 && !next) || (x < 0 && !previous)
+      const blocked = (x > 0 && !previous) || (x < 0 && !next)
       if (blocked) {
         x *= 0.22
       }
@@ -143,77 +138,82 @@ export function GlanceDeck({
     const axis = origin.current.axis
     origin.current.axis = null
     draggingRef.current = false
+    const { width, height } = deckSize()
 
-    if (axis === "x" && x >= SWIPE_THRESHOLD && next) {
-      release(exitBy("x"), 0, onNext)
+    if (axis === "x" && x >= SWIPE_THRESHOLD && previous) {
+      release(width, 0, onPrevious)
       return
     }
-    if (axis === "x" && x <= -SWIPE_THRESHOLD && previous) {
-      release(-exitBy("x"), 0, onPrevious)
+    if (axis === "x" && x <= -SWIPE_THRESHOLD && next) {
+      release(-width, 0, onNext)
       return
     }
     if (axis === "y" && y <= -SWIPE_THRESHOLD) {
-      release(0, -exitBy("y"), onLaterDay)
+      release(0, -height, onLaterDay)
       return
     }
     if (axis === "y" && y >= SWIPE_THRESHOLD) {
-      release(0, exitBy("y"), onEarlierDay)
+      release(0, height, onEarlierDay)
       return
     }
 
     release(0, 0)
   }
 
-  const behind =
+  const { width, height } = deckSize()
+  const incoming =
     offset.y < -8
       ? laterDay
       : offset.y > 8
         ? earlierDay
-        : offset.x < -8
+        : offset.x > 8
           ? previous
-          : next
-  const promoted = promoteAmount(offset.x, offset.y)
-  const behindScale = 0.965 + 0.035 * promoted
-  const behindShift = 12 * (1 - promoted)
-  const tilt = Math.max(-8, Math.min(8, offset.x / 24))
+          : offset.x < -8
+            ? next
+            : undefined
+  const incomingX =
+    Math.abs(offset.x) > Math.abs(offset.y)
+      ? offset.x > 0
+        ? offset.x - width
+        : offset.x + width
+      : 0
+  const incomingY =
+    Math.abs(offset.y) > Math.abs(offset.x)
+      ? offset.y > 0
+        ? offset.y - height
+        : offset.y + height
+      : 0
   const motion =
-    dragging || instant
-      ? "none"
-      : `transform ${MOVE_MS}ms ${MOVE_EASE}, opacity ${MOVE_MS}ms ${MOVE_EASE}`
+    dragging || instant ? "none" : `transform ${MOVE_MS}ms ${MOVE_EASE}`
 
   return (
     <div
       ref={deckRef}
       data-deck
-      className="relative min-h-0 flex-1 touch-none px-3 pb-2"
+      className="relative min-h-0 flex-1 touch-none overflow-hidden px-3 pb-2"
       onPointerDown={pointerDown}
       onPointerMove={pointerMove}
       onPointerUp={pointerUp}
       onPointerCancel={pointerUp}
     >
-      {behind ? (
+      {incoming ? (
         <div
           data-behind
           className="pointer-events-none absolute inset-x-3 top-0 bottom-2"
           style={{
-            transform: `translate3d(0, ${behindShift}px, 0) scale(${behindScale})`,
-            opacity: 0.72 + 0.28 * promoted,
-            transformOrigin: "center center",
+            transform: `translate3d(${incomingX}px, ${incomingY}px, 0)`,
             transition: motion,
           }}
         >
-          <GlanceCardView card={behind} />
+          <GlanceCardView card={incoming} />
         </div>
       ) : null}
       <div
         key={card.id}
         className="absolute inset-x-3 top-0 bottom-2"
         style={{
-          transform: `translate3d(${offset.x}px, ${offset.y}px, 0) rotate(${tilt}deg)`,
-          transition:
-            dragging || instant
-              ? "none"
-              : `transform ${MOVE_MS}ms ${MOVE_EASE}`,
+          transform: `translate3d(${offset.x}px, ${offset.y}px, 0)`,
+          transition: motion,
         }}
         onTransitionEnd={(event) => {
           if (event.propertyName === "transform") {

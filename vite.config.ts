@@ -18,22 +18,46 @@ export default defineConfig({
     tailwindcss(),
     VitePWA({
       registerType: "autoUpdate",
-      includeAssets: ["vite.svg"],
+      includeAssets: [
+        "logo.svg",
+        "favicon-32x32.png",
+        "apple-touch-icon.png",
+        "pwa-192x192.png",
+        "pwa-512x512.png",
+      ],
       manifest: {
         name: "MIT Timetable",
         short_name: "Timetable",
         description:
           "Computer Engineering timetable for MIT Academy of Engineering",
         theme_color: "#171717",
-        background_color: "#ffffff",
+        background_color: "#171717",
         display: "standalone",
         start_url: "/",
         icons: [
           {
-            src: "vite.svg",
+            src: "logo.svg",
             sizes: "any",
             type: "image/svg+xml",
             purpose: "any",
+          },
+          {
+            src: "pwa-192x192.png",
+            sizes: "192x192",
+            type: "image/png",
+            purpose: "any",
+          },
+          {
+            src: "pwa-512x512.png",
+            sizes: "512x512",
+            type: "image/png",
+            purpose: "any",
+          },
+          {
+            src: "pwa-512x512.png",
+            sizes: "512x512",
+            type: "image/png",
+            purpose: "maskable",
           },
         ],
       },
