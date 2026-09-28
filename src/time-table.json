@@ -19,13 +19,15 @@
           {
             "batch": "F2",
             "subject": "Programming Lab",
+            "subjectCode": "PL",
             "sessionType": "lab",
             "faculty": ["Vinodini U. Gupta"],
             "room": "H205"
           },
           {
             "batch": "F3",
-            "subject": "Programming Lab",
+            "subject": "Problem Solving Using Object-Oriented Programming (Java)",
+            "subjectCode": "P-SOOP (Java)",
             "sessionType": "lab",
             "faculty": ["Chetana H. Nande"],
             "room": "H207A"
@@ -49,13 +51,15 @@
           {
             "batch": "F2",
             "subject": "Programming Lab",
+            "subjectCode": "PL",
             "sessionType": "lab",
             "faculty": ["Vinodini U. Gupta"],
             "room": "H205"
           },
           {
             "batch": "F3",
-            "subject": "Programming Lab",
+            "subject": "Problem Solving Using Object-Oriented Programming (Java)",
+            "subjectCode": "P-SOOP (Java)",
             "sessionType": "lab",
             "faculty": ["Chetana H. Nande"],
             "room": "H207A"
@@ -74,7 +78,32 @@
         "startTime": "10:30",
         "endTime": "11:25",
         "type": "class",
-        "allocations": []
+        "allocations": [
+          {
+            "batch": "F1",
+            "subject": "Computer Organization and Architecture",
+            "subjectCode": "COA",
+            "sessionType": "lecture",
+            "faculty": ["Krunal B. Pawar"],
+            "room": "H202"
+          },
+          {
+            "batch": "F2",
+            "subject": "Computer Organization and Architecture",
+            "subjectCode": "COA",
+            "sessionType": "lecture",
+            "faculty": ["Krunal B. Pawar"],
+            "room": "H202"
+          },
+          {
+            "batch": "F3",
+            "subject": "Computer Organization and Architecture",
+            "subjectCode": "COA",
+            "sessionType": "lecture",
+            "faculty": ["Krunal B. Pawar"],
+            "room": "H202"
+          }
+        ]
       },
       {
         "slotNumber": 5,
@@ -84,26 +113,26 @@
         "allocations": [
           {
             "batch": "F1",
-            "subject": "Computer Graphics",
-            "subjectCode": "CG",
+            "subject": "Data Structures",
+            "subjectCode": "DS",
             "sessionType": "lecture",
-            "faculty": ["Rohini A. Bain"],
+            "faculty": ["Vinodini U. Gupta"],
             "room": "H202"
           },
           {
             "batch": "F2",
-            "subject": "Computer Graphics",
-            "subjectCode": "CG",
+            "subject": "Data Structures",
+            "subjectCode": "DS",
             "sessionType": "lecture",
-            "faculty": ["Rohini A. Bain"],
+            "faculty": ["Vinodini U. Gupta"],
             "room": "H202"
           },
           {
             "batch": "F3",
-            "subject": "Computer Graphics",
-            "subjectCode": "CG",
+            "subject": "Data Structures",
+            "subjectCode": "DS",
             "sessionType": "lecture",
-            "faculty": ["Rohini A. Bain"],
+            "faculty": ["Vinodini U. Gupta"],
             "room": "H202"
           }
         ]
@@ -123,6 +152,38 @@
         "allocations": [
           {
             "batch": "F1",
+            "subject": "Computer Graphics",
+            "subjectCode": "CG",
+            "sessionType": "lecture",
+            "faculty": ["Rohini A. Bain"],
+            "room": "H202"
+          },
+          {
+            "batch": "F2",
+            "subject": "Computer Graphics",
+            "subjectCode": "CG",
+            "sessionType": "lecture",
+            "faculty": ["Rohini A. Bain"],
+            "room": "H202"
+          },
+          {
+            "batch": "F3",
+            "subject": "Computer Graphics",
+            "subjectCode": "CG",
+            "sessionType": "lecture",
+            "faculty": ["Rohini A. Bain"],
+            "room": "H202"
+          }
+        ]
+      },
+      {
+        "slotNumber": 8,
+        "startTime": "14:10",
+        "endTime": "15:05",
+        "type": "class",
+        "allocations": [
+          {
+            "batch": "F1",
             "subject": "Applied Mathematics",
             "subjectCode": "AM",
             "sessionType": "lecture",
@@ -148,17 +209,33 @@
         ]
       },
       {
-        "slotNumber": 8,
-        "startTime": "14:10",
-        "endTime": "15:05",
+        "slotNumber": 9,
+        "startTime": "15:05",
+        "endTime": "15:10",
+        "type": "break",
+        "allocations": []
+      },
+      {
+        "slotNumber": 10,
+        "startTime": "15:10",
+        "endTime": "16:00",
         "type": "class",
         "allocations": [
           {
             "batch": "F1",
             "subject": "Programming Lab",
+            "subjectCode": "PL",
             "sessionType": "lab",
             "faculty": ["Vinodini U. Gupta"],
             "room": "H204A"
+          },
+          {
+            "batch": "F2",
+            "subject": "Computer Organization and Architecture",
+            "subjectCode": "COA",
+            "sessionType": "lab",
+            "faculty": ["Krunal B. Pawar"],
+            "room": "H204B"
           },
           {
             "batch": "F3",
@@ -171,23 +248,45 @@
         ]
       },
       {
-        "slotNumber": 9,
-        "startTime": "15:05",
-        "endTime": "15:10",
-        "type": "break",
-        "allocations": []
+        "slotNumber": 11,
+        "startTime": "16:00",
+        "endTime": "16:50",
+        "type": "class",
+        "allocations": [
+          {
+            "batch": "F1",
+            "subject": "Sports Session",
+            "sessionType": "other",
+            "faculty": [],
+            "room": ""
+          },
+          {
+            "batch": "F2",
+            "subject": "Sports Session",
+            "sessionType": "other",
+            "faculty": [],
+            "room": ""
+          },
+          {
+            "batch": "F3",
+            "subject": "Sports Session",
+            "sessionType": "other",
+            "faculty": [],
+            "room": ""
+          }
+        ]
       },
       {
-        "slotNumber": 10,
-        "startTime": "15:10",
-        "endTime": "16:00",
+        "slotNumber": 12,
+        "startTime": "16:50",
+        "endTime": "17:45",
         "type": "class",
         "allocations": []
       },
       {
-        "slotNumber": 11,
-        "startTime": "16:00",
-        "endTime": "16:50",
+        "slotNumber": 13,
+        "startTime": "17:45",
+        "endTime": "18:25",
         "type": "class",
         "allocations": []
       }
@@ -205,6 +304,7 @@
           {
             "batch": "F1",
             "subject": "Programming Lab",
+            "subjectCode": "PL",
             "sessionType": "lab",
             "faculty": ["Vinodini U. Gupta"],
             "room": "H305"
@@ -228,6 +328,7 @@
           {
             "batch": "F1",
             "subject": "Programming Lab",
+            "subjectCode": "PL",
             "sessionType": "lab",
             "faculty": ["Vinodini U. Gupta"],
             "room": "H305"
@@ -257,9 +358,10 @@
         "allocations": [
           {
             "batch": "F1",
-            "subject": "Programming Lab",
+            "subject": "Entrepreneurship Skills Lab",
+            "subjectCode": "ES",
             "sessionType": "lab",
-            "faculty": ["Priyanka G. Mane"],
+            "faculty": ["Yogesh B. Pawar"],
             "room": "H207B"
           },
           {
@@ -288,9 +390,10 @@
         "allocations": [
           {
             "batch": "F1",
-            "subject": "Programming Lab",
+            "subject": "Entrepreneurship Skills Lab",
+            "subjectCode": "ES",
             "sessionType": "lab",
-            "faculty": ["Priyanka G. Mane"],
+            "faculty": ["Yogesh B. Pawar"],
             "room": "H207B"
           },
           {
@@ -404,8 +507,17 @@
             "room": "H204B"
           },
           {
+            "batch": "F2",
+            "subject": "Entrepreneurship Skills Lab",
+            "subjectCode": "ES",
+            "sessionType": "lab",
+            "faculty": ["Yogesh B. Pawar"],
+            "room": "H302"
+          },
+          {
             "batch": "F3",
             "subject": "Programming Lab",
+            "subjectCode": "PL",
             "sessionType": "lab",
             "faculty": ["Vinodini U. Gupta"],
             "room": "H207B"
@@ -436,7 +548,7 @@
             "subjectCode": "ES",
             "sessionType": "lab",
             "faculty": ["Yogesh B. Pawar"],
-            "room": "E424"
+            "room": "E524"
           },
           {
             "batch": "F2",
@@ -444,15 +556,15 @@
             "subjectCode": "AM",
             "sessionType": "lab",
             "faculty": ["Amitkumar A. Shinde"],
-            "room": "H205"
+            "room": "H305"
           },
           {
             "batch": "F3",
-            "subject": "Computer Graphics Lab",
-            "subjectCode": "CG",
+            "subject": "Problem Solving Using Object-Oriented Programming (Java)",
+            "subjectCode": "P-SOOP (Java)",
             "sessionType": "lab",
-            "faculty": ["SL"],
-            "room": "H207B"
+            "faculty": ["Priyanka G. Mane"],
+            "room": "E421"
           }
         ]
       },
@@ -468,7 +580,7 @@
             "subjectCode": "ES",
             "sessionType": "lab",
             "faculty": ["Yogesh B. Pawar"],
-            "room": "E424"
+            "room": "E524"
           },
           {
             "batch": "F2",
@@ -476,15 +588,15 @@
             "subjectCode": "AM",
             "sessionType": "lab",
             "faculty": ["Amitkumar A. Shinde"],
-            "room": "H205"
+            "room": "H305"
           },
           {
             "batch": "F3",
-            "subject": "Computer Graphics Lab",
-            "subjectCode": "CG",
+            "subject": "Problem Solving Using Object-Oriented Programming (Java)",
+            "subjectCode": "P-SOOP (Java)",
             "sessionType": "lab",
-            "faculty": ["SL"],
-            "room": "H207B"
+            "faculty": ["Priyanka G. Mane"],
+            "room": "E421"
           }
         ]
       },
@@ -506,15 +618,24 @@
             "subject": "Applied Mathematics Lab",
             "subjectCode": "AM",
             "sessionType": "lab",
-            "faculty": ["SRS"],
+            "faculty": ["Amitkumar A. Shinde"],
             "room": "H205"
           },
           {
             "batch": "F2",
             "subject": "Programming Lab",
+            "subjectCode": "PL",
             "sessionType": "lab",
             "faculty": ["Vinodini U. Gupta"],
             "room": "H207A"
+          },
+          {
+            "batch": "F3",
+            "subject": "Entrepreneurship Skills Lab",
+            "subjectCode": "ES",
+            "sessionType": "lab",
+            "faculty": ["Yogesh B. Pawar"],
+            "room": "H105"
           }
         ]
       },
@@ -529,15 +650,24 @@
             "subject": "Applied Mathematics Lab",
             "subjectCode": "AM",
             "sessionType": "lab",
-            "faculty": ["SRS"],
+            "faculty": ["Amitkumar A. Shinde"],
             "room": "H205"
           },
           {
             "batch": "F2",
             "subject": "Programming Lab",
+            "subjectCode": "PL",
             "sessionType": "lab",
             "faculty": ["Vinodini U. Gupta"],
             "room": "H207A"
+          },
+          {
+            "batch": "F3",
+            "subject": "Entrepreneurship Skills Lab",
+            "subjectCode": "ES",
+            "sessionType": "lab",
+            "faculty": ["Yogesh B. Pawar"],
+            "room": "H105"
           }
         ]
       },
@@ -556,27 +686,27 @@
         "allocations": [
           {
             "batch": "F1",
-            "subject": "Applied Mathematics",
-            "subjectCode": "AM",
-            "sessionType": "lecture",
-            "faculty": ["Amitkumar A. Shinde"],
-            "room": "H202"
+            "subject": "Computer Graphics Lab",
+            "subjectCode": "CG",
+            "sessionType": "lab",
+            "faculty": ["Rohini A. Bain"],
+            "room": "H207B"
           },
           {
             "batch": "F2",
-            "subject": "Applied Mathematics",
-            "subjectCode": "AM",
-            "sessionType": "lecture",
-            "faculty": ["Amitkumar A. Shinde"],
-            "room": "H202"
+            "subject": "Computer Organization and Architecture",
+            "subjectCode": "COA",
+            "sessionType": "lab",
+            "faculty": ["Krunal B. Pawar"],
+            "room": "H204A"
           },
           {
             "batch": "F3",
-            "subject": "Applied Mathematics",
-            "subjectCode": "AM",
-            "sessionType": "lecture",
-            "faculty": ["Amitkumar A. Shinde"],
-            "room": "H202"
+            "subject": "Computer Graphics Lab",
+            "subjectCode": "CG",
+            "sessionType": "lab",
+            "faculty": ["Rohini A. Bain"],
+            "room": "H207B"
           }
         ]
       },
@@ -588,27 +718,27 @@
         "allocations": [
           {
             "batch": "F1",
-            "subject": "Universal Human Values-II",
-            "subjectCode": "UHV-II",
-            "sessionType": "lecture",
-            "faculty": ["Suvidha P. Shahu"],
-            "room": "H202"
+            "subject": "Computer Graphics Lab",
+            "subjectCode": "CG",
+            "sessionType": "lab",
+            "faculty": ["Rohini A. Bain"],
+            "room": "H207B"
           },
           {
             "batch": "F2",
-            "subject": "Universal Human Values-II",
-            "subjectCode": "UHV-II",
-            "sessionType": "lecture",
-            "faculty": ["Suvidha P. Shahu"],
-            "room": "H202"
+            "subject": "Computer Organization and Architecture",
+            "subjectCode": "COA",
+            "sessionType": "lab",
+            "faculty": ["Krunal B. Pawar"],
+            "room": "H204A"
           },
           {
             "batch": "F3",
-            "subject": "Universal Human Values-II",
-            "subjectCode": "UHV-II",
-            "sessionType": "lecture",
-            "faculty": ["Suvidha P. Shahu"],
-            "room": "H202"
+            "subject": "Computer Graphics Lab",
+            "subjectCode": "CG",
+            "sessionType": "lab",
+            "faculty": ["Rohini A. Bain"],
+            "room": "H207B"
           }
         ]
       },
@@ -626,12 +756,28 @@
         "type": "class",
         "allocations": [
           {
+            "batch": "F1",
+            "subject": "Problem Solving Using Object-Oriented Programming (Java)",
+            "subjectCode": "P-SOOP (Java)",
+            "sessionType": "lab",
+            "faculty": ["Priyanka G. Mane"],
+            "room": "E421"
+          },
+          {
             "batch": "F2",
             "subject": "Problem Solving Using Object-Oriented Programming (Java)",
             "subjectCode": "P-SOOP (Java)",
             "sessionType": "lab",
-            "faculty": ["Yogesh B. Pawar"],
+            "faculty": ["Priyanka G. Mane"],
             "room": "E421"
+          },
+          {
+            "batch": "F3",
+            "subject": "Entrepreneurship Skills Lab",
+            "subjectCode": "ES",
+            "sessionType": "lab",
+            "faculty": ["Yogesh B. Pawar"],
+            "room": "YBP-E421"
           }
         ]
       },
@@ -729,15 +875,15 @@
             "subject": "Computer Graphics Lab",
             "subjectCode": "CG",
             "sessionType": "lab",
-            "faculty": ["CSB"],
+            "faculty": ["Rohini A. Bain"],
             "room": "E422"
           },
           {
             "batch": "F3",
-            "subject": "Computer Organization and Architecture Lab",
+            "subject": "Computer Organization and Architecture",
             "subjectCode": "COA",
             "sessionType": "lab",
-            "faculty": ["SS"],
+            "faculty": ["Soham Sohni"],
             "room": "H204A"
           }
         ]
@@ -753,15 +899,15 @@
             "subject": "Computer Graphics Lab",
             "subjectCode": "CG",
             "sessionType": "lab",
-            "faculty": ["CSB"],
+            "faculty": ["Rohini A. Bain"],
             "room": "E422"
           },
           {
             "batch": "F3",
-            "subject": "Computer Organization and Architecture Lab",
+            "subject": "Computer Organization and Architecture",
             "subjectCode": "COA",
             "sessionType": "lab",
-            "faculty": ["SS"],
+            "faculty": ["Soham Sohni"],
             "room": "H204A"
           }
         ]
@@ -849,7 +995,29 @@
         "startTime": "15:10",
         "endTime": "16:00",
         "type": "class",
-        "allocations": []
+        "allocations": [
+          {
+            "batch": "F1",
+            "subject": "Make Up / Problem Solving Session",
+            "sessionType": "other",
+            "faculty": [],
+            "room": ""
+          },
+          {
+            "batch": "F2",
+            "subject": "Make Up / Problem Solving Session",
+            "sessionType": "other",
+            "faculty": [],
+            "room": ""
+          },
+          {
+            "batch": "F3",
+            "subject": "Make Up / Problem Solving Session",
+            "sessionType": "other",
+            "faculty": [],
+            "room": ""
+          }
+        ]
       },
       {
         "slotNumber": 11,
@@ -868,7 +1036,24 @@
         "startTime": "08:30",
         "endTime": "09:25",
         "type": "class",
-        "allocations": []
+        "allocations": [
+          {
+            "batch": "F1",
+            "subject": "Universal Human Values-I",
+            "subjectCode": "UHV-I",
+            "sessionType": "lecture",
+            "faculty": ["Suvidha P. Shahu"],
+            "room": "H301"
+          },
+          {
+            "batch": "F2",
+            "subject": "Universal Human Values-II",
+            "subjectCode": "UHV-II",
+            "sessionType": "lecture",
+            "faculty": ["Suvidha P. Shahu"],
+            "room": "H203"
+          }
+        ]
       },
       {
         "slotNumber": 2,
@@ -889,14 +1074,32 @@
         "startTime": "10:30",
         "endTime": "11:25",
         "type": "class",
-        "allocations": []
+        "allocations": [
+          {
+            "batch": "F1",
+            "subject": "Universal Human Values-II",
+            "subjectCode": "UHV-II",
+            "sessionType": "lecture",
+            "faculty": ["Suvidha P. Shahu"],
+            "room": "H202"
+          }
+        ]
       },
       {
         "slotNumber": 5,
         "startTime": "11:25",
         "endTime": "12:20",
         "type": "class",
-        "allocations": []
+        "allocations": [
+          {
+            "batch": "F3",
+            "subject": "Universal Human Values-II",
+            "subjectCode": "UHV-II",
+            "sessionType": "lecture",
+            "faculty": ["Suvidha P. Shahu"],
+            "room": "H303"
+          }
+        ]
       },
       {
         "slotNumber": 6,
@@ -942,7 +1145,29 @@
         "startTime": "14:10",
         "endTime": "15:05",
         "type": "class",
-        "allocations": []
+        "allocations": [
+          {
+            "batch": "F1",
+            "subject": "Office Hours",
+            "sessionType": "other",
+            "faculty": [],
+            "room": ""
+          },
+          {
+            "batch": "F2",
+            "subject": "Office Hours",
+            "sessionType": "other",
+            "faculty": [],
+            "room": ""
+          },
+          {
+            "batch": "F3",
+            "subject": "Office Hours",
+            "sessionType": "other",
+            "faculty": [],
+            "room": ""
+          }
+        ]
       },
       {
         "slotNumber": 9,
@@ -956,7 +1181,29 @@
         "startTime": "15:10",
         "endTime": "16:00",
         "type": "class",
-        "allocations": []
+        "allocations": [
+          {
+            "batch": "F1",
+            "subject": "Project",
+            "sessionType": "other",
+            "faculty": [],
+            "room": ""
+          },
+          {
+            "batch": "F2",
+            "subject": "Project",
+            "sessionType": "other",
+            "faculty": [],
+            "room": ""
+          },
+          {
+            "batch": "F3",
+            "subject": "Project",
+            "sessionType": "other",
+            "faculty": [],
+            "room": ""
+          }
+        ]
       },
       {
         "slotNumber": 11,
@@ -975,7 +1222,29 @@
         "startTime": "08:30",
         "endTime": "09:25",
         "type": "other",
-        "allocations": []
+        "allocations": [
+          {
+            "batch": "F1",
+            "subject": "Guest Talk Session",
+            "sessionType": "other",
+            "faculty": [],
+            "room": ""
+          },
+          {
+            "batch": "F2",
+            "subject": "Guest Talk Session",
+            "sessionType": "other",
+            "faculty": [],
+            "room": ""
+          },
+          {
+            "batch": "F3",
+            "subject": "Guest Talk Session",
+            "sessionType": "other",
+            "faculty": [],
+            "room": ""
+          }
+        ]
       },
       {
         "slotNumber": 2,
@@ -996,7 +1265,29 @@
         "startTime": "10:30",
         "endTime": "11:25",
         "type": "class",
-        "allocations": []
+        "allocations": [
+          {
+            "batch": "F1",
+            "subject": "Library Hours",
+            "sessionType": "other",
+            "faculty": [],
+            "room": ""
+          },
+          {
+            "batch": "F2",
+            "subject": "Library Hours",
+            "sessionType": "other",
+            "faculty": [],
+            "room": ""
+          },
+          {
+            "batch": "F3",
+            "subject": "Library Hours",
+            "sessionType": "other",
+            "faculty": [],
+            "room": ""
+          }
+        ]
       },
       {
         "slotNumber": 5,
